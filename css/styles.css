@@ -1,0 +1,28 @@
+body {
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 16;
+}
+
+.list {list-style: none;}
+.site-body {}
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.header-navigation {}
+.header-logo {}
+.header-list {}
+.header-item {}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #212121;}
+.header-mail {}
+.header-tel {}
