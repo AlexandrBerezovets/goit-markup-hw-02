@@ -9,6 +9,7 @@
 
 :root {
     --primary-text-color: #212121;
+    --black-color: #000000;
     --title-text-color: #757575;
     --accent-color: #2196F3;
     --primary-btn-color: #F5F4FA;
@@ -41,12 +42,12 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--primary-text-color);
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 .web {
-    color: var(--accent-color);
+    color: var(--black-color);
     text-decoration: none;
 }
 
@@ -248,9 +249,11 @@ background-color: var(--accent-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--white-color);
+    color: var(--accent-color);
     text-decoration: none;
 }
+
+.web-secondari {color: var(--white-color)}
 
 /*Basement*/
 
